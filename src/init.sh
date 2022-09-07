@@ -18,7 +18,5 @@ pushd ${NGINX_FILES_PATH}
 mkdir -p certs  conf.d  html  htpasswd  vhost.d
 popd
 
-cp ./conf.d/* ${NGINX_FILES_PATH}/conf.d/
-
 tree -a ${NGINX_FILES_PATH}
 
